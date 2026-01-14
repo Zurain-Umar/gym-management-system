@@ -30,6 +30,3 @@ The website includes the following pages:
   - Shows different membership plans
   - Explains services offered by the gym
 
-## Project Folder Structure
-The project is organized as follows:
-
