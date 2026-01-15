@@ -1,26 +1,23 @@
-{% extends "base.html" %}
-
-{% block title %}About Us | PowerFit Gym{% endblock %}
-
-{% block content %}
-<h1>About Us</h1>
-
-<p>
-PowerFit Gym is dedicated to helping people achieve their fitness goals through
-professional training, modern facilities, and a motivating atmosphere.
-</p>
-
-<h3>Our Mission</h3>
-<p>To promote a healthy lifestyle and physical fitness for everyone.</p>
-
-<h3>Our Team</h3>
-<p>Our certified trainers guide members with personalized workout plans.</p>
-
-<h3>Facilities</h3>
-<ul>
-    <li>Cardio Zone</li>
-    <li>Weight Training Area</li>
-    <li>Yoga & Aerobics Hall</li>
-    <li>Locker Rooms</li>
-</ul>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>About - Power Gym</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!-- Navbar -->
+<div class="navbar">
+<div class="logo"><strong>Power Gym</strong></div>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about">About</a>
+</div>
+</div>
+<!-- About Section -->
+<div class="hero">
+<h1>About Power Gym</h1>
+<p>We help you stay strong and healthy with the best trainers, equipment, and
+personalized workout plans.</p>
+</div>
+</body>
+</html>

@@ -1,16 +1,24 @@
-{% extends "base.html" %}
-
-{% block title %}Home | PowerFit Gym{% endblock %}
-
-{% block content %}
-<h1>Welcome to PowerFit Gym</h1>
-<p>Your journey to a stronger, healthier life starts here.</p>
-
-<h3>Gym Highlights</h3>
-<ul>
-    <li>✔ Modern equipment</li>
-    <li>✔ Certified trainers</li>
-    <li>✔ Friendly environment</li>
-    <li>✔ Flexible workout timings</li>
-</ul>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home - Power Gym</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!-- Navbar -->
+<div class="navbar">
+<div class="logo"><strong>Power Gym</strong></div>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/about">About</a>
+</div>
+</div>
+<!-- Hero Section -->
+<div class="hero">
+<h1>💪Welcome to Power Gym</h1>
+<p>Train Hard. Stay Fit. Never Quit.</p>
+<div class="hero-buttons">
+<button><a class="button-link" href="/about">About Us</a></button>
+</div>
+</div>
+</body></html>
